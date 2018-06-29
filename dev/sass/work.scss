@@ -1,0 +1,60 @@
+.work {
+    text-align: center;
+    .container {
+        text-align: left;
+        .col {
+            position: relative;
+            cursor: pointer;
+            
+            &:hover span.plus {
+                opacity: 0.6;
+            }
+            &:hover span.name {
+                opacity: 1;
+            }
+           
+            span {
+                display: block;
+                position: absolute;
+                width: 92.555555%;
+                color: #ffffff;
+                background: #292f36;
+                transition: all 0.9s ease;
+            }
+            span.plus {
+                top:0;
+                padding: 100px 0;
+                font-size: 24px;
+                text-align: center;
+                opacity: 0;
+            }
+            span.name {
+                bottom: 0;
+                padding: 25px 15px;
+                font-size: 18px;
+                text-transform: uppercase;
+                opacity: 0;
+            }
+        }
+    }
+    
+    a {
+        display:inline-block;
+        margin: 50px auto;
+        padding: 15px 35px;
+        background: inherit;
+        font-size: 14px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        border: 3px solid #ffffff;
+        border-radius: 10px;
+        transition: box-shadow 0.5s ease;
+        &:hover {
+            box-shadow: 0 0 20px 5px rgb(91, 91, 92);
+        }
+    }
+    .row {
+        padding-bottom: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+$colorText: #8d8f92;
+
+* {
+    box-sizing: border-box;
+}
+section {
+    padding: 90px 0;
+}
+section.bg {
+    background: #3a454d;  
+}
+h2.black {
+    display: block;
+    margin-bottom: 60px;
+    padding-left: 10px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #000000;
+    border-left: 10px solid #e1e6ea;
+}
+h2.white {
+    display: block;
+    margin-bottom: 60px;
+    padding-left: 10px;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-left: 10px solid #e1e6ea;
+}
+p {
+    font-size: 16px;
+    color: $colorText;
+}

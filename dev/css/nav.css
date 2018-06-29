@@ -1,0 +1,7 @@
+.navbar-brand {
+  padding-left: 185px; }
+
+.collapse {
+  padding-left: 400px; }
+  .collapse ul li a {
+    text-transform: uppercase; }

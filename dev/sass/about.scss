@@ -1,0 +1,45 @@
+$colorText: #8d8f92;
+
+.about {
+    border-bottom: 1px solid #dde1e4;
+    transition: all 1s ease;
+    .social {
+        display: flex;
+        margin-top: 110px;
+        a {
+            margin-left: 1px;
+            padding: 5px;
+            background: silver;
+            &:hover {
+                background: #d0d5d9;
+            }
+        }
+       
+        
+      
+    }
+    
+    .wrap-article {
+        display: flex;
+        justify-content: space-between;
+        .numb-article {
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            line-height: 50px;
+            text-align: center;
+            color: #ffffff;
+            background: #23b7a4;
+        }
+        .article {
+            width: 400px;
+            padding-left: 25px;
+            h4 {
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+
+        }
+    }
+   
+}
