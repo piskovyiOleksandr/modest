@@ -1,5 +1,9 @@
 $colorText: #8d8f92;
-
+.row {
+    .col-sm-12, .col-md-12, .col-lg-7, .col-xl-7 {
+        margin-bottom: 20px;
+    }
+}
 .about {
     border-bottom: 1px solid #dde1e4;
     transition: all 1s ease;

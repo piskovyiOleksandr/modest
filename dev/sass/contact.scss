@@ -1,5 +1,4 @@
 .contact {
-    position: relative;
     #map {
         height: 400px;
     }
@@ -11,45 +10,51 @@
     p {
         font-size: 16px;
     }
-   
-    .massege {
-        position: absolute;
-        top: 500px;
-        right: 200px;
-        width: 560px;
-        padding: 30px;
-        background: #ffffff;
-        p {
-            text-transform: uppercase;
-        }
-        input, textarea {
-            padding: 5px;
-            background: #b7d0e2;
-            border: none;
-        }
-        .f-flex {
-            display: flex;
-            justify-content: space-between;
-            input {
-                width: 240px;
-            }
-        }
-        textarea {
-            width: 490px;
-            height: 160px;
-            padding: 10px !important;
-        }
-        input[type=submit] {
-            padding: 15px 25px;
-            font-size: 14px;
-            color: #ffffff;
-            text-transform: uppercase;
-            background: #23b7a4;
-            border-radius: 10px;
-            cursor: pointer;
-            &:hover {
-                background: #0d7a6c;
-            }
-        }
+    .col-sm-12, .col-md-12 {
+        height: 350px;
     }
+   .massege {
+        position: relative;
+        .massege-box {
+            position: absolute;
+            top: -200px;
+            right: 0;
+            width: 560px;
+            padding: 30px;
+            background: #ffffff;
+            p {
+                text-transform: uppercase;
+            }
+            input, textarea {
+                padding: 5px;
+                background: #b7d0e2;
+                border: none;
+            }
+            .f-flex {
+                display: flex;
+                justify-content: space-between;
+                input {
+                    width: 240px;
+                }
+            }
+            textarea {
+                width: 490px;
+                height: 160px;
+                padding: 10px !important;
+            }
+            input[type=submit] {
+                padding: 15px 25px;
+                font-size: 14px;
+                color: #ffffff;
+                text-transform: uppercase;
+                background: #23b7a4;
+                border-radius: 10px;
+                cursor: pointer;
+                &:hover {
+                    background: #0d7a6c;
+                }
+            }
+        }
+   }
+    
 }

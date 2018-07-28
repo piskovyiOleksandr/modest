@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box; }
 
+.all-content {
+  max-width: 1900px; }
+
 section {
   padding: 90px 0; }
 

@@ -1,10 +1,10 @@
 .team {
-    .row .col-lg-3, .col-md-6,.col-sm-12 {
+    .row .col-xl-3, .row.col-lg-3, .row.col-md-6, .row.col-sm-12 {
         position: relative;
         cursor: pointer;
        .info {
             position: relative;
-            width: 265px;
+            width: 100%;
             padding: 20px;
             background: #e1e6ea;
             transition: all .8s linear;

@@ -1,36 +1,42 @@
-.contact {
+.contact #map {
+  height: 400px; }
+
+.contact h3 {
+  padding: 90px 0 20px;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+.contact p {
+  font-size: 16px; }
+
+.contact .col-sm-12, .contact .col-md-12 {
+  height: 350px; }
+
+.contact .massege {
   position: relative; }
-  .contact #map {
-    height: 400px; }
-  .contact h3 {
-    padding: 90px 0 20px;
-    font-size: 20px;
-    text-transform: uppercase; }
-  .contact p {
-    font-size: 16px; }
-  .contact .massege {
+  .contact .massege .massege-box {
     position: absolute;
-    top: 500px;
-    right: 200px;
+    top: -200px;
+    right: 0;
     width: 560px;
     padding: 30px;
     background: #ffffff; }
-    .contact .massege p {
+    .contact .massege .massege-box p {
       text-transform: uppercase; }
-    .contact .massege input, .contact .massege textarea {
+    .contact .massege .massege-box input, .contact .massege .massege-box textarea {
       padding: 5px;
       background: #b7d0e2;
       border: none; }
-    .contact .massege .f-flex {
+    .contact .massege .massege-box .f-flex {
       display: flex;
       justify-content: space-between; }
-      .contact .massege .f-flex input {
+      .contact .massege .massege-box .f-flex input {
         width: 240px; }
-    .contact .massege textarea {
+    .contact .massege .massege-box textarea {
       width: 490px;
       height: 160px;
       padding: 10px !important; }
-    .contact .massege input[type=submit] {
+    .contact .massege .massege-box input[type=submit] {
       padding: 15px 25px;
       font-size: 14px;
       color: #ffffff;
@@ -38,5 +44,5 @@
       background: #23b7a4;
       border-radius: 10px;
       cursor: pointer; }
-      .contact .massege input[type=submit]:hover {
+      .contact .massege .massege-box input[type=submit]:hover {
         background: #0d7a6c; }
